@@ -22,6 +22,7 @@ suites:
   - name: default
     run_list:
       - recipe[rabbitmq-cluster::default]
+      - recipe[rabbitmq-cluster::join-cluster]
     verifier:
       inspec_tests:
         - test/integration/default

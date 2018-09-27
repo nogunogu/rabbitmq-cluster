@@ -7,3 +7,6 @@ default['rabbitmq']['tcp_listen_interface'] = nil
 
 default['erlang']['install_method'] = "esl"
 default['erlang']['esl']['version'] = "1:20.2.2"
+
+
+default['rabbitmq']['master_node'] = "rmq3"

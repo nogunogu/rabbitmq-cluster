@@ -1,4 +1,3 @@
 # rabbitmq-cluster
 
-TODO: Enter the cookbook description here.
-
+Set up RabbitMQ Cluster
